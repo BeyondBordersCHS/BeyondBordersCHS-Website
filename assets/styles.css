@@ -41,7 +41,7 @@ body {
 a { color: var(--blue); }
 a:hover { color: var(--amber); }
 
-img { max-width: 100%; }
+img { max-width: 100%; height: auto; }
 
 @keyframes bbfade {
   from { opacity: 0; transform: translateY(8px); }
@@ -102,8 +102,8 @@ img { max-width: 100%; }
 .brand:hover { color: inherit; }
 
 .brand__mark {
-  width: 45px;
-  height: 33px;
+  width: 34px;
+  height: 34px;
   display: block;
   object-fit: contain;
 }
@@ -219,6 +219,16 @@ img { max-width: 100%; }
   gap: 10px;
   padding-top: 24px;
   border-top: 2px solid var(--blue);
+}
+
+.officer__photo {
+  width: 160px;
+  height: 160px;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--pill);
+  margin-bottom: 4px;
 }
 
 .officer__name { font-family: var(--serif); font-size: 27px; line-height: 1.15; }
